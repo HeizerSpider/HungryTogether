@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/teal_gradient_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pic"
+            android:src="@drawable/macdonalds_background"
+            android:layout_width="wrap_content"
+            android:contentDescription="@null"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/pic1"
+            android:layout_alignTop="@+id/pic1"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="$7.0"/>
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:src="@drawable/bigmac"
+            android:contentDescription="@null"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/pic"
+            android:layout_toEndOf="@id/radioFood"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/pic2"
+            android:layout_alignTop="@+id/pic2"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="$5.5"/>
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:src="@drawable/mcspicy"
+            android:contentDescription="@null"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/pic1"
+            android:layout_toEndOf="@id/radioFood"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/pic3"
+            android:layout_alignTop="@+id/pic3"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="$2.5"/>
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:src="@drawable/mcchicken"
+            android:contentDescription="@null"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/pic2"
+            android:layout_toEndOf="@id/radioFood"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/pic4"
+            android:layout_alignTop="@+id/pic4"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="$6.5"/>
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:src="@drawable/mcchicken"
+            android:contentDescription="@null"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/pic3"
+            android:layout_toEndOf="@id/radioFood"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/pic5"
+            android:layout_alignTop="@+id/pic5"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="$2.0"/>
+
+        <ImageView
+            android:id="@+id/pic5"
+            android:src="@drawable/mcchicken"
+            android:contentDescription="@null"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/pic4"
+            android:layout_toEndOf="@id/radioFood"/>
+
+        <Button
+            android:id="@+id/completeorderbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete Order"
+            android:layout_below="@+id/pic5"
+            android:layout_centerHorizontal="true"/>
+
+        <RadioGroup
+            android:id="@+id/radioFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pic">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="@string/Big_Mac" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/r1"
+                android:text="@string/McSpicy" />
+
+            <RadioButton
+                android:id="@+id/r3"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/r2"
+                android:text="@string/McChicken" />
+
+            <RadioButton
+                android:id="@+id/r4"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/r3"
+                android:text="@string/Double_McSpicy" />
+
+            <RadioButton
+                android:id="@+id/r5"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/r4"
+                android:text="@string/Filet_o_Fish" />
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HungryTogether</string>
+
+    <string name="title_open_orders">Open Orders</string>
+    <string name="title_my_orders">My Orders</string>
+    <string name="title_new_order">New Order</string>
+    <string name="title_food_captain">Food Captain</string>
+    <string name="title_my_profile">My Profile</string>
+
+    <string name="Big_Mac">Big Mac</string>
+    <string name="Filet_o_Fish">Filet O Fish</string>
+    <string name="McChicken">McChicken</string>
+    <string name="McSpicy">McSpicy</string>
+    <string name="Double_McSpicy">Double McSpicy</string>
+    <string name="mcspicy_url">https://www.dbs.com.sg/personal/mobile/paylink/index.html?tranRef=wESoASZiO3</string>
+    <string name = "slots_available">slots available...</string>
+
+</resources>

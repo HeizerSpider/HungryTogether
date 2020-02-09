@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teal_gradient_background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".login_portal.MainLogin">
+
+    <ImageView
+        android:id="@+id/hungry_together_logo"
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="100dp"
+
+        android:src="@drawable/hungry_together_logo" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_marginTop="50dp"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+
+        android:background="@drawable/google_signin_logo" />
+    <!--
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Sign in with Google"/>
+        -->
+
+</LinearLayout>
