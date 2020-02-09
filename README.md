@@ -1,5 +1,8 @@
 # HungryTogether-AndroidApplication
 
+Project Poster  
+![Poster](/htposter.jpeg)
+
 |Page|Description|
 |----|-----------|
 |Google Authentication Page|Hungry Together is user-specific and each user’s experience is different according to their activities. Therefore, our group decided to integrate Google’s built-in sign-in portal to identify users and keep track of their activities.|
