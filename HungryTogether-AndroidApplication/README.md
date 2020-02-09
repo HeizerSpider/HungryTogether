@@ -1,14 +1,5 @@
 # HungryTogether-AndroidApplication
 
-To install:
-
-```
-https://github.com/daryllman/HungryTogether-AndroidApplication.git
-```
-
-1) Git clone above link to local machine  
-2) Import to android studio (File -> New... -> Import --> <directory of file above>)
-
 |Page|Description|
 |----|-----------|
 |Google Authentication Page|Hungry Together is user-specific and each user’s experience is different according to their activities. Therefore, our group decided to integrate Google’s built-in sign-in portal to identify users and keep track of their activities.|
